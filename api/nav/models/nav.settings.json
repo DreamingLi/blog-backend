@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "navs",
+  "info": {
+    "name": "nav",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blogName": {
+      "type": "string"
+    }
+  }
+}
