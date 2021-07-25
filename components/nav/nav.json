@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_nav_navs",
+  "info": {
+    "name": "Nav",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "home": {
+      "type": "string"
+    },
+    "archive": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "friends": {
+      "type": "string"
+    },
+    "donate": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "app": {
+      "type": "string"
+    },
+    "others": {
+      "type": "string"
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "navs",
+  "collectionName": "headers",
   "info": {
-    "name": "nav",
+    "name": "Header",
     "description": ""
   },
   "options": {
@@ -12,7 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "blogName": {
+    "leftName": {
+      "type": "string"
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nav.nav"
+    },
+    "rightSearch": {
       "type": "string"
     }
   }
