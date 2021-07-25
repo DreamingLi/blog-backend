@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyright": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string"
+    },
+    "authLink": {
+      "type": "string"
+    },
+    "themeLink": {
+      "type": "string"
+    },
+    "builtTime": {
+      "type": "datetime"
+    }
+  }
+}
