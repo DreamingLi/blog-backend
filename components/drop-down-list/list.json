@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_drop_down_list_lists",
+  "info": {
+    "name": "list",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
